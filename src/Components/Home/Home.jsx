@@ -16,28 +16,27 @@ const Home = () => {
     }, [])
 
     const handleCart = (cart) => {
-        const isExits = selectCourse.find(item => item.id === cart.id)
-        const count = cart.credit;
+        const isExits = selectCourse.find(item => item.id == cart.id)
+        const count = cart.credit
+
         if (isExits) {
-            return alert('You cannont select one course in multipul time')
+            return alert('you connot select multiput course')
         }
         else {
-            selectCourse.forEach(item => {
-                count = count + item.credit
-            })
-            const remainingCredit = 20 - count
-            if (count > 20) {
-                return alert('tk ses ar hobe na')
-            }
-            else {
-                setRemaining(remainingCredit)
+            selectCourse.forEach((item) => {
+                count = count + item.credit;
+              });
+            const creditRemaining = 20 - count
+            if( count > 20){
+                return alert('oops sorry')
+            }else{
                 setTotalTime(count)
+                setRemaining(creditRemaining)
             }
-            const newCridit = [...selectCourse, cart]
-            setSelectCourse(newCridit)
-
-
+            
         }
+        const newCridit = [...selectCourse, cart]
+        setSelectCourse(newCridit)
     }
 
     return (
@@ -53,6 +52,7 @@ const Home = () => {
             </div>
         </div>
     );
-};
+
+}
 
 export default Home;

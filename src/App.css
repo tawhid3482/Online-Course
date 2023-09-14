@@ -1,0 +1,17 @@
+/* const isExits = selectCourse.find(item => item.id == cart.id)
+const count = cart.credit
+if (isExits) {
+    return alert('You cannont select one course in multipul time')
+}
+else {
+    selectCourse.forEach(item => {
+        count = count + item.credit
+    })
+    const remainingCredit = 20 - count
+    if (count > 20) {
+        return alert('Your Credit is finish ')
+    }
+    else {
+        setTotalTime(count)
+        setRemaining(remainingCredit)
+    } */
