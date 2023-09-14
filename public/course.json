@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCtPs3hgCDzdC4fJeJAbQL8bl-_a6uW2xn1EYpT3QXLo6KpMML3uu9FMfwAytiFtk1gd0&usqp=CAU",
+        "course_name": "Ready to Programming",
+        "credit": 3,
+        "price": 49.99,
+        "details": "Learn the basics of programming in this introductory course."
+    },
+    {
+        "id": 2,
+        "img": "https://www.covetus.com/uploads/topics/15805349703902.jpg",
+        "course_name": "Web Development ",
+        "credit": 4,
+        "price": 79.99,
+        "details": "Get started with web development and build your first website."
+    },
+    {
+        "id": 3,
+        "img": "https://www.edureka.co/blog/wp-content/uploads/2018/06/Big-Data-Sources-Data-Scientist-Skills-Edureka-2.png",
+        "course_name": "Data Science Essentials",
+        "credit": 5,
+        "price": 99.99,
+        "details": "Explore data analysis and machine learning techniques."
+    },
+    {
+        "id": 4,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1oHg5_uQFWW2LWJZQbNidiSTdpGQm2LnNdg&usqp=CAU",
+        "course_name": "Graphic Design Basics",
+        "credit": 3,
+        "price": 59.99,
+        "details": "Learn the fundamentals of graphic design and image editing."
+    },
+    {
+        "id": 5,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS-zayEQnYfCPLEIob2CDEXpmIAOV9e1ruuV3BllClNft_n6KXGj8Uk7-lh25Onjykyuc&usqp=CAU",
+        "course_name": "Mobile App Development",
+        "credit": 4,
+        "price": 89.99,
+        "details": "Build mobile apps for iOS and Android platforms."
+    },
+    {
+        "id": 6,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8CxpkmSxXgd8lHWroZ_3fQ4U6YvRz6ff1AhhobSQv67pEsDcJGdFXn7N5wNUTgiJapn4&usqp=CAU",
+        "course_name": "Digital Marketing Strategy",
+        "credit": 3,
+        "price": 69.99,
+        "details": "Create effective digital marketing campaigns and strategies."
+    },
+    {
+        "id": 7,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM6MWGxvd9X4jPfdUXc19-X37twR60-haO-u0m3lXGahewxheV0Z9F25v5qCoLzftmltM&usqp=CAU",
+        "course_name": "Business Finance",
+        "credit": 4,
+        "price": 79.99,
+        "details": "Understand key financial concepts for business success."
+    },
+    {
+        "id": 8,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy4aRxL1t7IEGVntVvokRLfqEAU85UV-D_0ER8RJxcg_TjIQDerzwon6-DbMMhvWRLhjs&usqp=CAU",
+        "course_name": "Photography Masterclass",
+        "credit": 3,
+        "price": 69.99,
+        "details": " Photos with this comprehensive photography course."
+    },
+    {
+        "id": 9,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRhOV9fiSbR2gIvf7x9RVPkWZkQZ_E9f2AbFF3PLqxQYgxboXfH4gryBqNbz51y84V1To&usqp=CAU",
+        "course_name": "Creative Writing Workshop",
+        "credit": 2,
+        "price": 49.99,
+        "details": "Unlock your creativity and improve your writing skills."
+    }
+]
