@@ -16,7 +16,7 @@ const Cart = ({ cart, handleCart }) => {
                         <p>Credit: {cart.credit}hr</p>
                     </div>
                     <div className="card-actions w-f justify-center">
-                        <button onClick={() => handleCart(cart)} className="btn btn-primary">Select</button>
+                        <button onClick={() => handleCart(cart)} className="btn btn-primary w-full text-white">Select</button>
                     </div>
                 </div>
             </div>
