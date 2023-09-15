@@ -21,7 +21,7 @@ const Home = () => {
         let count = cart.credit
 
         if (isExits) {
-            return toast.error('You already selected sorry')
+            return toast.error('You have already selected sorry')
         }
         else {
             selectCourse.forEach((item) => {
@@ -29,7 +29,7 @@ const Home = () => {
               });
             const creditRemaining = 20 - count
             if( count > 20){
-                return toast.error('oops sorry your credit finish')
+                return toast.error('oops sorry your credit hour finish')
             }else{
                 setTotalTime(count)
                 setRemaining(creditRemaining)
