@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Cart from "../Cart/Cart";
 import Course from "../Course/Course";
+import toast from "react-hot-toast";
 
 const Home = () => {
     const [carts, setCarts] = useState([])
@@ -20,7 +21,7 @@ const Home = () => {
         let count = cart.credit
 
         if (isExits) {
-            return alert('you connot select multiput course')
+            return toast.error('You already selected sorry')
         }
         else {
             selectCourse.forEach((item) => {
@@ -28,7 +29,7 @@ const Home = () => {
               });
             const creditRemaining = 20 - count
             if( count > 20){
-                return alert('oops sorry')
+                return toast.error('oops sorry your credit finish')
             }else{
                 setTotalTime(count)
                 setRemaining(creditRemaining)
