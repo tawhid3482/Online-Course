@@ -1,4 +1,5 @@
-
+import dollar from '../../assets/images/dollar-sign 1.png'
+import book from '../../assets/images/Frame.png'
 const Cart = ({ cart, handleCart }) => {
 
     return (
@@ -9,7 +10,9 @@ const Cart = ({ cart, handleCart }) => {
                     <h2 className="card-title">{cart.course_name}</h2>
                     <p>{cart.details}</p>
                     <div className="flex gap-2">
-                        <p>Price: {cart.price}</p>
+                    <img src={dollar} alt="" />
+                        <p>  Price: {cart.price}</p>
+                        <img src={book} alt="" />
                         <p>Credit: {cart.credit}hr</p>
                     </div>
                     <div className="card-actions w-f justify-center">
