@@ -4,7 +4,7 @@
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCtPs3hgCDzdC4fJeJAbQL8bl-_a6uW2xn1EYpT3QXLo6KpMML3uu9FMfwAytiFtk1gd0&usqp=CAU",
         "course_name": "Ready to Programming",
         "credit": 3,
-        "price": 49.99,
+        "price":  49.99,
         "details": "Learn the basics of programming in this introductory course."
     },
     {

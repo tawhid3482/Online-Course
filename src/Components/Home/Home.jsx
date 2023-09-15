@@ -40,14 +40,14 @@ const Home = () => {
     }
 
     return (
-        <div className="flex gap-5 p-0 mt-5 w-11/12">
-            <div className="grid grid-cols-3  gap-8 mx-auto">
+        <div className="flex p-0 mt-5 ">
+            <div className="grid grid-cols-3 gap-5 mx-auto">
                 {
                     carts.map(cart => <Cart key={cart.id} handleCart={handleCart} cart={cart}></Cart>)
                 }
 
             </div>
-            <div className="">
+            <div className="  ml-5">
                 <Course selectCourse={selectCourse} remaining={remaining} totalTime={totalTime}></Course>
             </div>
         </div>
