@@ -2,12 +2,11 @@ Question No.1=> Add at least 3 Project features?
 
 ans:
 
-1.About project :=> It is a basicaly online course on basic Web development,Programming,Data Science Essentials,Graphic Design,Mobile App,Digital Marketing,Business Finance etc.
+1/ Project Overview: This project is primarily an online course platform that covers a wide range of subjects, including basic web development, programming, data science essentials, graphic design, mobile app development, digital marketing, and business finance.
 
-2.Waitlist and Notifications :=> i add some toast in my project when a user or student select one course in multiple time then it's show and also when the credit and remaining  is less than or getter than 20 or  0 then it's show the toast.
+2/ Waitlist and Notifications: In the project, we have implemented a waitlist feature with notifications. When a user or student attempts to enroll in a course multiple times, a notification toast will be displayed. Additionally, if the user's credit balance falls below 20 or reaches 0, a notification toast will also appear, indicating that they cannot enroll in additional courses.
 
-3.Select Course :=> You can select any course in this project but remember 2 things 
-1st one never select one course multiple time and 2st one is if your credit hour and remaining is finish you cannot select another course.
+3/ Course Selection: Users are free to choose any course within the project. However, there are two important restrictions to keep in mind. First, users should not attempt to enroll in the same course multiple times. Second, if their credit hours are exhausted or their remaining balance reaches zero, they won't be able to select any more courses until they recharge their credits.
 
 
 
